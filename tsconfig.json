@@ -1,0 +1,17 @@
+{
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "rootDir": "./src",
+    "baseUrl": "./src/sponsored-products-api-v3-models",
+    "outDir": "./dist",
+    "outFile": "./dist/index.js",
+    "composite": true,
+    "emitDeclarationOnly": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "esModuleInterop": true
+  }
+}
