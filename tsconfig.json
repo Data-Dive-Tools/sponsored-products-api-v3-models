@@ -3,14 +3,11 @@
   "exclude": ["node_modules", "dist"],
   "compilerOptions": {
     "target": "ES5",
-    "module": "System",
+    "module": "CommonJS",
     "rootDir": "./src",
     "baseUrl": "./src/sponsored-products-api-v3-models",
     "outDir": "./dist",
-    "outFile": "./dist/index.js",
-    "composite": true,
     "declaration": true,
-    "sourceMap": true,
     "removeComments": true,
     "esModuleInterop": true
   }
